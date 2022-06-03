@@ -1,0 +1,41 @@
+
+@mixin font
+($wd, $mb, $fw, $fs, $lh, $ls, $tt, $ta, $col, $bcol) {
+  width: $wd;
+  margin-bottom: $mb;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  text-transform: $tt;
+  text-align: $ta;
+  color: $col;
+  background-color: $bcol
+}
+// @include font ($wd, $mb, $fw, $fs, $lh, $ls, $tt, $ta, $col, $bcol);
+
+///////////////////////////
+@mixin mobile {
+  @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+//////////////////////////
+@mixin media($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
