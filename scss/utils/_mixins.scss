@@ -1,7 +1,7 @@
 
 @mixin font
-($wd, $mb, $fw, $fs, $lh, $ls, $tt, $ta, $col, $bcol) {
-  width: $wd;
+($w, $mb, $fw, $fs, $lh, $ls, $tt, $ta, $col, $bcol) {
+  width: $w;
   margin-bottom: $mb;
   font-weight: $fw;
   font-size: $fs;
@@ -12,7 +12,7 @@
   color: $col;
   background-color: $bcol
 }
-// @include font ($wd, $mb, $fw, $fs, $lh, $ls, $tt, $ta, $col, $bcol);
+// @include font ($w, $mb, $fw, $fs, $lh, $ls, $tt, $ta, $col, $bcol);
 
 ///////////////////////////
 @mixin mobile {
