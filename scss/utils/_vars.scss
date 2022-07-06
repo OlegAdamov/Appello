@@ -6,4 +6,13 @@
   --second-btn-color: ;
   --accent-color: ;
   --typical-margin: ;
+  
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+
+
 }
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1280px;

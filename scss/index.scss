@@ -1,11 +1,11 @@
+@import "./utils/vars";
 @import "./base/reset";
 @import "./base/common";
-@import "./utils/vars";
 @import "./utils/mixins";
 @import "./utils/hidden";
 @import "./utils/placeholders";
 
 
-@import "./header";
+@import "./_sections/header";
 @import "./_sections/body";
-@import "./footer";
+@import "./_sections/footer";
